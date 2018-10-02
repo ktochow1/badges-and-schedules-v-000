@@ -30,9 +30,7 @@ end
       return room_assignments_holder
     end
 
-
-# hash = Hash.new
-# %w(cat dog wombat).each_with_index { |item, index|
-#   hash[item] = index
-# }
-# hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
+ def printer(list_of_speaker_names)
+      batch_badge_creator(list_of_speaker_names).each { |badge| puts badge}
+      assign_rooms(list_of_speaker_names).each { |room_assignment| puts room_assignment }
+    end
