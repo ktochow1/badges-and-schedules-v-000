@@ -9,20 +9,20 @@ def batch_badge_creator(array)
   arr
 end
 
-def assign_rooms
-  rooms = [1, 2, 3, 4, 5, 6, 7]
-  bade_maker(name)
-  #return list of room assignments: "Hello, name! You'll be assigned to room roomnumber!"
+# def assign_rooms
+#   rooms = [1, 2, 3, 4, 5, 6, 7]
+#   bade_maker(name)
+#   #return list of room assignments: "Hello, name! You'll be assigned to room roomnumber!"
   
-  #batch_badge_creator(array)
-  array = array.new
-  array.each_with_index { |item, index| 
-  array[item] = index
-  }
-  # names.each { |n| names << "Hello #{n}!" }
-  # rooms = []
-  # rooms.each { |r| rooms << "You'll be assigned to room #{room}!" }
-end
+#   #batch_badge_creator(array)
+#   array = array.new
+#   array.each_with_index { |item, index| 
+#   array[item] = index
+#   }
+#   # names.each { |n| names << "Hello #{n}!" }
+#   # rooms = []
+#   # rooms.each { |r| rooms << "You'll be assigned to room #{room}!" }
+# end
 
 
 # hash = Hash.new
