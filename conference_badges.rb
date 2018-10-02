@@ -10,6 +10,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms
+  
+  
+  
   #batch_badge_creator(array)
   array = array.new
   array.each_with_index { |item, index| 
