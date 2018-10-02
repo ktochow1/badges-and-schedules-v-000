@@ -11,8 +11,8 @@ end
 
 def assign_rooms
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  guests = []
-  #return list of room assignments: "Hello, name! Your room is roomnumber!"
+  bade_maker(name)
+  #return list of room assignments: "Hello, name! You'll be assigned to room roomnumber!"
   
   #batch_badge_creator(array)
   array = array.new
