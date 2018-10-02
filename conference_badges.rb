@@ -24,6 +24,12 @@ end
 #   # rooms.each { |r| rooms << "You'll be assigned to room #{room}!" }
 # end
 
+ def assign_rooms(list_of_speaker_names)
+      room_assignments_holder = []
+      list_of_speaker_names.each_with_index { |name, room_number| room_assignments_holder << "Hello, #{name}! You'll be assigned to room #{room_number + 1}!"}
+      return room_assignments_holder
+    end
+
 
 # hash = Hash.new
 # %w(cat dog wombat).each_with_index { |item, index|
