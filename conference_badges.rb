@@ -10,7 +10,8 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms
-  
+  rooms = []
+  guests = []
   
   
   #batch_badge_creator(array)
